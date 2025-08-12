@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$NOD — The Universal Sign of Approval</title>
+  <meta name="description" content="$NOD is the universal 'yes' brought on-chain. Community-powered memecoin on Solana.">
+  <meta property="og:title" content="$NOD — The Universal Sign of Approval">
+  <meta property="og:description" content="A nod means 'yes' in every language. Now it’s on-chain.">
+  <meta property="og:image" content="assets/og.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <img src="assets/logo.svg" alt="$NOD logo" class="logo">
+        <span>$NOD</span>
+      </a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#how">How to Buy</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="press.html">Press Kit</a>
+        <a href="#chart">Chart</a>
+        <a href="#game">Nod Game</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="right">
+        <button id="themeToggle" class="icon-btn" title="Theme">🌓</button>
+        <a id="buyCta" class="cta" target="_blank" rel="noopener">Buy</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="pill">Live on <strong>Solana</strong> • 0/0 tax</div>
+          <h1>A nod means “yes” in every language.<br><span class="accent">Now it’s on‑chain.</span></h1>
+          <p class="lead">$NOD turns the most universal approval signal into a culture coin. If you approve, you <strong>nod</strong>. 🟢</p>
+
+          <div class="actions">
+            <button class="copy" id="copyAddr" aria-live="polite">Copy Contract</button>
+            <a class="btn" id="dexLink" target="_blank" rel="noopener">Open Chart</a>
+            <a class="btn ghost" id="tweetBtn" target="_blank" rel="noopener">Tweet “I Nod”</a>
+          </div>
+
+          <div class="mini">
+            <span id="price">$NOD — fetching price…</span>
+            <span class="dot">•</span>
+            <a class="link" id="dsLink" target="_blank" rel="noopener">DexScreener</a>
+          </div>
+
+          <div class="socials">
+            <a id="tw" class="link" target="_blank" rel="noopener">X Community</a> ·
+            <a id="tg" class="link" target="_blank" rel="noopener">Telegram</a> ·
+            <a id="ml" class="link" href="#">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="heads">
+            <img src="assets/nod-head.svg" class="head" alt="nod head">
+            <img src="assets/nod-head.svg" class="head delay" alt="nod head">
+            <img src="assets/nod-head.svg" class="head delay2" alt="nod head">
+          </div>
+          <div class="glow"></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll">↓</a>
+    </section>
+
+    <section id="about" class="section container two-col">
+      <div>
+        <h2>Why $NOD?</h2>
+        <p>Across cultures, the nod is instant approval. $NOD packages that universal meme into a fast, fun community on Solana.</p>
+        <ul class="checks">
+          <li>Universal meme — no translation needed</li>
+          <li>Daily nod challenges & raider squads</li>
+          <li>Transparent, simple tokenomics</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Contract</h3>
+        <code id="addr">Loading…</code>
+        <button class="copy small" id="copyAddr2">Copy</button>
+        <div class="note">Edit <code>config.js</code> to set contract, links, and analytics.</div>
+      </div>
+    </section>
+
+    <section id="how" class="section alt">
+      <div class="container">
+        <h2>How to Buy</h2>
+        <div class="steps">
+          <div class="step"><span>1</span><h4>Get a Solana wallet</h4><p>Install Phantom or Solflare and fund with SOL.</p></div>
+          <div class="step"><span>2</span><h4>Open the $NOD pair</h4><p>Use DexScreener or a supported DEX aggregator.</p></div>
+          <div class="step"><span>3</span><h4>Swap for $NOD</h4><p>Paste the contract, set slippage if needed, nod in approval. 🟢</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tokenomics" class="section container">
+      <h2>Tokenomics</h2>
+      <div class="cards">
+        <div class="card"><h4>Total Supply</h4><p>1,000,000,000 $NOD</p></div>
+        <div class="card"><h4>Taxes</h4><p>0 / 0</p></div>
+        <div class="card"><h4>Chain</h4><p>Solana</p></div>
+        <div class="card"><h4>Distribution</h4><p>Fair launch — no presale, no team allocation.</p></div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section alt">
+      <div class="container">
+        <h2>Roadmap (Lore)</h2>
+        <div class="timeline">
+          <div class="titem"><h4>Phase 1 — The First Nod</h4><p>Launch, meme pack, daily nod challenge, raider squads.</p></div>
+          <div class="titem"><h4>Phase 2 — Council of Nods</h4><p>Spaces takeovers, collabs, tools, sticker pack.</p></div>
+          <div class="titem"><h4>Phase 3 — Global Approval</h4><p>Listings, merch, IRL nod meetups, charity vote.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="chart" class="section container">
+      <h2>Live Chart</h2>
+      <div class="chart-wrap">
+        <iframe id="chartFrame" src="" loading="lazy" frameborder="0" height="650" width="100%" title="DexScreener chart"></iframe>
+      </div>
+    </section>
+
+    <section id="game" class="section container">
+      <h2>Nod Game</h2>
+      <p class="lead">Click the head to **nod**. We’ll count total nods across everyone. 🟢</p>
+      <div class="game-wrap">
+        <button id="nodBtn" class="nod-btn" aria-label="Click to nod">
+          <img src="assets/nod-head.svg" alt="nod head" />
+        </button>
+        <div class="counter-box">
+          <div class="count" id="nodCount">…</div>
+          <div class="label">Total nods</div>
+          <div class="tiny" id="nodStatus"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section alt">
+      <div class="container">
+        <h2>FAQ</h2>
+        <details><summary>Is $NOD a serious project?</summary><p>It’s serious about fun. Culture-first on Solana’s speed.</p></details>
+        <details><summary>What’s the utility?</summary><p>Social utility and community experiments. We nod, we approve, we build vibes.</p></details>
+        <details><summary>Is the contract renounced / liquidity locked?</summary><p>Update here post-launch with specifics. Transparency wins trust.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="brandline">
+        <img src="assets/logo.svg" alt="$NOD logo" class="logo small">
+        <strong>$NOD</strong> — The Universal Sign of Approval
+      </div>
+      <div class="links">
+        <a id="dsFooter" target="_blank" rel="noopener">DexScreener</a>
+        <a id="twFooter" target="_blank" rel="noopener">X</a>
+        <a id="tgFooter" target="_blank" rel="noopener">Telegram</a>
+        <a id="mailFooter">Email</a>
+      </div>
+      <p class="tiny">Nothing here is financial advice. DYOR. © <span id="year"></span> $NOD.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
